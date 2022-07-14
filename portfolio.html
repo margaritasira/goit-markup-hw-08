@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body>
+    <header class="header section">
+        <div class="container">
+        <nav class="header-nav">
+        <a href="./index.html" class="header-logo link logo">
+            Web<span class="logo-accent-main">Studio</span>
+        </a>
+        <button type="button" class="open-mob-menu">
+            <svg class="menu-soc-icon" width="40" height="40">
+                <use  href="./images/icons.svg#icon-menu"></use>
+            </svg>
+        </button>
+        <ul class="header-list list">
+            <li class="header-item"><a href="./index.html" class="header-link link">Студия</a></li>
+            <li class="header-item"><a href="./portfolio.html" class="header-link current link">Портфолио</a></li>
+            <li class="header-item"><a href="" class="header-link link">Контакты</a></li>
+        </ul>
+        </nav>
+        <ul class="contacts-list list">
+            <li class="contacts-item"><a href="mailto:info@devstudio.com" class="header-contacts link">
+                <svg class="main-contact-icon" width="16" height="12">
+                    <use href="./images/icons.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com</a></li>
+            <li class="contacts-item"><a href="tel:+380961111111" class="header-contacts tel link">
+                <svg class="main-contact-icon" width="10" height="16">
+                    <use href="./images/icons.svg#icon-smartphone"></use>
+                </svg>
+                +38 096 111 11 11</a></li>
+        </ul>
+    </div>
+
+    <div class="mob-menu is-hidden">
+        <button type="button" class="close-mob-menu">
+            <svg class="menu-soc-icon" width="40" height="40">
+                <use  href="./images/icons.svg#icon-close_menu"></use>
+            </svg>
+        </button>
+        <div class="mob-menu-top">
+            <ul class="mob-menu-list list">
+                <li class="mob-menu-item"><a href="./index.html" class="mob-link  link">Студия</a></li>
+                <li class="mob-menu-item"><a href="./portfolio.html" class="mob-link current link">Портфолио</a></li>
+                <li class="mob-menu-item"><a href="" class="mob-link link">Контакты</a></li>
+            </ul>
+        
+            <ul class="mob-menu-contacts list">
+                <li class="mob-menu-tel"><a href="tel:+380961111111" class="mob-tel-link link">
+                    +38 096 111 11 11</a></li>
+                <li class="mob-menu-mail"><a href="mailto:info@devstudio.com" class="mob-mail-link link">
+                    info@devstudio.com</a></li>
+            </ul>
+            
+            <ul class="mob-menu-soc list">
+                <li class="mob-soc-item"><a class="mob-soc-link link" href="">Instagram</a></li>
+                <li class="mob-soc-item"><a class="mob-soc-link link" href="">Twitter</a></li>
+                <li class="mob-soc-item"><a class="mob-soc-link link" href="">Facebook</a></li>
+                <li class="mob-soc-item"><a class="mob-soc-link link" href="">LinkedIn</a></li>
+            </ul>
+        </div>
+    </div>
+
+    </header>
+    <main>
+        <section class="navigation bgc">
+            <div class="container">
+            <h1 class="visually-hidden">Наши работы</h1>
+            <ul class="navigation-list list">
+                <li class="nav-item">
+                    <button type="button" class="button nav">Все</button>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="button nav">Веб-сайты</button> 
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="button nav">Приложения</button>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="button nav">Дизайн</button>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="button nav">Маркетинг</button>
+                </li>
+            </ul>
+        
+            <ul class="features-list list">
+                <li class="features-item"><a href="" class="link">
+                    <a href="" class="features-wrap link">
+                    <div class="features-top-wrap">
+                        <picture>
+                            <source srcset="
+                            ./images/about1-desk.jpg 1x,
+                        ./images/about1-desk2x.jpg 2x"
+                        media="(min-width: 1200px)"
+                            >
+                            <source srcset="
+                            ./images/about1-tab.jpg 1x,
+                        ./images/about1-tab2x.jpg 2x"
+                        media="(min-width: 768px)"
+                            >
+                            <source srcset="
+                            ./images/about1-mob.jpg 1x,
+                        ./images/about1-mob2x.jpg 2x"
+                        media="(min-width: 320px)"
+                            >
+                            <img src="./images/about1-mob.jpg" alt="Технокряк" width="450" height="294">
+                        </picture>
+                    <p class="features-top-text">
+                        Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                    </p>
+                </div>
+                    <div class="link-text">
+                    <h2 class="features-title">Технокряк</h2>
+                    <p class="features-text">Веб-сайт</p></div></a>
+                    </a>
+                </li>
+                <li class="features-item"><a href="" class="link">
+                    <a href="" class="features-wrap link">
+                    <div class="features-top-wrap">
+                        <picture>
+                            <source srcset="
+                            ./images/about2-desk.jpg 1x,
+                        ./images/about2-desk2x.jpg 2x"
+                        media="(min-width: 1200px)"
+                            >
+                            <source srcset="
+                            ./images/about2-tab.jpg 1x,
+                        ./images/about2-tab2x.jpg 2x"
+                        media="(min-width: 768px)"
+                            >
+                            <source srcset="
+                            ./images/about2-mob.jpg 1x,
+                        ./images/about2-mob2x.jpg 2x"
+                        media="(min-width: 320px)"
+                            >
+                            <img src="./images/about2-mob.jpg" alt="Постер" width="450" height="294">
+                        </picture>
+                    <p class="features-top-text">
+                        Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                    </p>
+                </div>
+                    <div class="link-text">
+                    <h2 class="features-title">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+                    <p class="features-text">Дизайн</p></div></a>
+                    </a>
+                </li>
+                <li class="features-item"><a href="" class="link">
+                    <a href="" class="features-wrap link">
+                    <div class="features-top-wrap">
+                        <picture>
+                            <source srcset="
+                            ./images/about3-desk.jpg 1x,
+                        ./images/about3-desk2x.jpg 2x"
+                        media="(min-width: 1200px)"
+                            >
+                            <source srcset="
+                            ./images/about3-tab.jpg 1x,
+                        ./images/about3-tab2x.jpg 2x"
+                        media="(min-width: 768px)"
+                            >
+                            <source srcset="
+                            ./images/about3-mob.jpg 1x,
+                        ./images/about3-mob2x.jpg 2x"
+                        media="(min-width: 320px)"
+                            >
+                            <img src="./images/about3-mob.jpg" alt="Ресторан" width="450" height="294">
+                        </picture>
+                    <p class="features-top-text">
+                        Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                    </p>
+                </div>
+                    <div class="link-text">
+                    <h2 class="features-title">Ресторан <span lang="en">Seafood</span></h2>
+                    <p class="features-text">Приложение</p>
+                </div></a>
+                </a>
+                </li>
+                <li class="features-item"><a href="" class="link">
+                    <a href="" class="features-wrap link">
+                    <div class="features-top-wrap">
+                        <picture>
+                            <source srcset="
+                            ./images/about4-desk.jpg 1x,
+                        ./images/about4-desk2x.jpg 2x"
+                        media="(min-width: 1200px)"
+                            >
+                            <source srcset="
+                            ./images/about4-tab.jpg 1x,
+                        ./images/about4-tab2x.jpg 2x"
+                        media="(min-width: 768px)"
+                            >
+                            <source srcset="
+                            ./images/about4-mob.jpg 1x,
+                        ./images/about4-mob2x.jpg 2x"
+                        media="(min-width: 320px)"
+                            >
+                            <img src="./images/about4-mob.jpg" alt="Проект" width="450" height="294">
+                        </picture>
+                    <p class="features-top-text">
+                        Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                    </p>
+                </div>
+                    <div class="link-text">
+                    <h2 class="features-title">Проект <span lang="en">Prime</span></h2>
+                    <p class="features-text">Маркетинг</p></div></a>
+                    </a>
+                </li>
+                <li class="features-item"><a href="" class="link">
+                    <a href="" class="features-wrap link">
+                    <div class="features-top-wrap">
+                        <picture>
+                            <source srcset="
+                            ./images/about5-desk.jpg 1x,
+                        ./images/about5-desk2x.jpg 2x"
+                        media="(min-width: 1200px)"
+                            >
+                            <source srcset="
+                            ./images/about5-tab.jpg 1x,
+                        ./images/about5-tab2x.jpg 2x"
+                        media="(min-width: 768px)"
+                            >
+                            <source srcset="
+                            ./images/about5-mob.jpg 1x,
+                        ./images/about5-mob2x.jpg 2x"
+                        media="(min-width: 320px)"
+                            >
+                            <img src="./images/about5-mob.jpg" alt="Проект" width="450" height="294">
+                        </picture>
+                    <p class="features-top-text">
+                        Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                    </p>
+                </div>
+                    <div class="link-text">
+                    <h2 class="features-title">Проект <span lang="en">Boxes</span></h2>
+                    <p class="features-text">Приложение</p></div></a>
+                    </a>
+                </li>
+                <li class="features-item"><a href="" class="link">
+                    <a href="" class="features-wrap link">
+                    <div class="features-top-wrap">
+                        <picture>
+                            <source srcset="
+                            ./images/about6-desk.jpg 1x,
+                        ./images/about6-desk2x.jpg 2x"
+                        media="(min-width: 1200px)"
+                            >
+                            <source srcset="
+                            ./images/about6-tab.jpg 1x,
+                        ./images/about6-tab2x.jpg 2x"
+                        media="(min-width: 768px)"
+                            >
+                            <source srcset="
+                            ./images/about6-mob.jpg 1x,
+                        ./images/about6-mob2x.jpg 2x"
+                        media="(min-width: 320px)"
+                            >
+                            <img src="./images/about6-mob.jpg" alt="Веб-сайт" width="450" height="294">
+                        </picture>
+                    <p class="features-top-text">
+                        Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                    </p>
+                </div>
+                    <div class="link-text">
+                    <h2 class="features-title" lang="en">Inspiration has no Borders</h2>
+                    <p class="features-text">Веб-сайт</p></div></a>
+                    </a>
+                </li>
+                <li class="features-item"><a href="" class="link">
+                    <a href="" class="features-wrap link">
+                    <div class="features-top-wrap">
+                        <picture>
+                            <source srcset="
+                            ./images/about7-desk.jpg 1x,
+                        ./images/about7-desk2x.jpg 2x"
+                        media="(min-width: 1200px)"
+                            >
+                            <source srcset="
+                            ./images/about7-tab.jpg 1x,
+                        ./images/about7-tab2x.jpg 2x"
+                        media="(min-width: 768px)"
+                            >
+                            <source srcset="
+                            ./images/about7-mob.jpg 1x,
+                        ./images/about7-mob2x.jpg 2x"
+                        media="(min-width: 320px)"
+                            >
+                            <img src="./images/about7-mob.jpg" alt="Дизайн" width="450" height="294">
+                        </picture>
+                    <p class="features-top-text">
+                        Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                    </p>
+                </div>
+                    <div class="link-text">
+                    <h2 class="features-title">Издание <span lang="en">Limited Edition</span></h2>
+                    <p class="features-text">Дизайн</p></div></a>
+                    </a>
+                </li>
+                <li class="features-item"><a href="" class="link">
+                    <a href="" class="features-wrap link">
+                    <div class="features-top-wrap">
+                        <picture>
+                            <source srcset="
+                            ./images/about8-desk.jpg 1x,
+                        ./images/about8-desk2x.jpg 2x"
+                        media="(min-width: 1200px)"
+                            >
+                            <source srcset="
+                            ./images/about8-tab.jpg 1x,
+                        ./images/about8-tab2x.jpg 2x"
+                        media="(min-width: 768px)"
+                            >
+                            <source srcset="
+                            ./images/about8-mob.jpg 1x,
+                        ./images/about8-mob2x.jpg 2x"
+                        media="(min-width: 320px)"
+                            >
+                            <img src="./images/about8-mob.jpg" alt="Маркетинг" width="450" height="294">
+                        </picture>
+                    <p class="features-top-text">
+                        Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                    </p>
+                </div>
+                    <div class="link-text">
+                    <h2 class="features-title">Проект <span lang="en">LAB</span></h2>
+                    <p class="features-text">Маркетинг</p></div></a>
+                    </a>
+                </li>
+                <li class="features-item"><a href="" class="link">
+                    <a href="" class="features-wrap link">
+                    <div class="features-top-wrap">
+                        <picture>
+                            <source srcset="
+                            ./images/about9-desk.jpg 1x,
+                        ./images/about9-desk2x.jpg 2x"
+                        media="(min-width: 1200px)"
+                            >
+                            <source srcset="
+                            ./images/about9-tab.jpg 1x,
+                        ./images/about9-tab2x.jpg 2x"
+                        media="(min-width: 768px)"
+                            >
+                            <source srcset="
+                            ./images/about9-mob.jpg 1x,
+                        ./images/about9-mob2x.jpg 2x"
+                        media="(min-width: 320px)"
+                            >
+                            <img src="./images/about9-mob.jpg" alt="Приложение" width="450" height="294">
+                        </picture>
+                    <p class="features-top-text">
+                        Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.
+                    </p>
+                </div>
+                    <div class="link-text">
+                    <h2 class="features-title" lang="en"> Growing Business</h2>
+                    <p class="features-text">Приложение</p></div></a>
+                    </a>
+                </li> 
+            </ul>
+        </div>
+        </section>
+    </main>
+    <footer class="footer">  
+        <div class="container">
+            <div class="tablet">
+            <div class="online">
+        <a href="./index.html" class="footer-logo link logo">Web<span class="logo-accent">Studio</span></a>
+        <address class="footer-address">
+        <ul class="footer-list list">
+            <li class="footer-item"><a href="https://goo.gl/maps/RJscWmazuHwLruKx6" class="footer-text link" target="_blank" rel="noopener noreferrer nofollow">г. Киев, пр-т Леси Украинки, 26</a></li>
+            <li class="footer-item"><a href="mailto:info@example.com" class="footer-link link" >info@example.com</a></li>
+            <li class="footer-item"><a href="tel:+380991111111" class="footer-link link" >+38 099 111 11 11</a></li>
+        
+        </ul>
+        </address>
+        </div>
+        <div class="footer-join">
+            <p class="footer-title">присоединяйтесь</p>
+            <ul class="join-list list">
+                <li class="join-item"><a href="" class="footer-soc-link link">
+                    <svg class="footer-soc-icon" width="20" height="20">
+                        <use  href="./images/icons.svg#icon-instagram"></use>
+                    </svg>
+                </a>
+                </li>
+                <li class="join-item"><a href="" class="footer-soc-link link">
+                    <svg class="footer-soc-icon" width="20" height="20">
+                        <use  href="./images/icons.svg#icon-twitter"></use>
+                    </svg>
+                </a>
+                </li>
+                <li class="join-item"><a href="" class="footer-soc-link link">
+                    <svg class="footer-soc-icon" width="20" height="20">
+                        <use  href="./images/icons.svg#icon-facebook"></use>
+                    </svg>
+                    </a>
+                </li>
+                <li class="join-item"><a href="" class="footer-soc-link link">
+                    <svg class="footer-soc-icon" width="20" height="20">
+                        <use  href="./images/icons.svg#icon-linkedin"></use>
+                    </svg>
+                </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+        <div class="footer-subscribe">
+            <p class="footer-form-title">Подпишитесь на рассылку</p>
+            <form class="footer-form">
+                <input type="email" name="email" class="footer-input" id="email" placeholder="E-mail" required />
+            
+                <button type="submit" class="footer-btn hero-btn">Подписаться <svg class="footer-form-icon" width="24" height="24">
+                    <use  href="./images/icons.svg#icon-icon-modal"></use></svg></button>
+            </form>
+        </div>
+    </div>
+    </footer>  
+    <script src="./js/menu.js"></script>
+</body>
+</html>
+
+
