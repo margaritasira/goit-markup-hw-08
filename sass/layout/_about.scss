@@ -23,14 +23,9 @@ color: var(--title-color);
 }
 }
 .pic-list__text {
-    margin-bottom: 30px;
     font-size: 14px;
 line-height: 1.71;
 color: var(--main-color);
-
-@media screen and (min-width: 768px){
-    margin-bottom: 0;
-}
 }
 
 

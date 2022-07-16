@@ -8,6 +8,7 @@
     }
     @media screen and (min-width: 1200px) {
         flex-direction: row;
+        align-items: baseline;
     }
 }
 
@@ -102,7 +103,7 @@ font-weight: 700;
 line-height: 1.14;
 text-transform: uppercase;
 color: var(--second-title-color);
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 786px) {
     margin-top: 0;
 }
 }
