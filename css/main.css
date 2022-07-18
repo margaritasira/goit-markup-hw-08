@@ -777,14 +777,13 @@ button {
 }
 
 .online {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  text-align: center;
   margin: 0 auto;
 }
 @media screen and (min-width: 1200px) {
   .online {
     align-items: flex-start;
+    text-align: unset;
   }
 }
 
@@ -864,7 +863,7 @@ button {
   text-transform: uppercase;
   color: var(--second-title-color);
 }
-@media screen and (min-width: 786px) {
+@media screen and (min-width: 768px) {
   .footer-title {
     margin-top: 0;
   }
@@ -875,8 +874,6 @@ button {
 }
 
 .footer-join {
-  display: flex;
-  flex-direction: column;
   text-align: center;
   margin: 0 auto;
 }
