@@ -593,7 +593,7 @@ button {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 @media screen and (max-width: 767px) {
   .navigation-list {
@@ -604,6 +604,12 @@ button {
   .navigation-list {
     justify-content: center;
     gap: 8px;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .navigation-list {
+    margin-bottom: 50px;
   }
 }
 
